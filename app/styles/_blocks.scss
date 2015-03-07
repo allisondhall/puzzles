@@ -1,0 +1,51 @@
+$orange: #FF9900;
+$darkgray: #424242;
+$mediumgray: #BCBCBC;
+$lightgray: #E9E9E9;
+$blue: #3299BB;
+
+.block {
+  color: $darkgray;
+  text-align: center;
+}
+
+.if-block {
+  width: 85px;
+  height: 40px;
+  padding-top: 8px;
+
+  .case-statement {
+    width: 21px;
+    height: 12px;
+    position: relative;
+    bottom: 15px;
+    left: 55px;
+    background-color: white;
+    border-radius: 8px;
+    opacity: 0.9;
+  }
+}
+
+.if-block-both {
+  background: url(../images/if_block_both.png) no-repeat;
+
+  &:hover {
+    background: url(../images/if_block_both_hover.png) no-repeat;
+  }
+}
+
+.if-block-top {
+  background: url(../images/if_block_top.png) no-repeat;
+
+  &:hover {
+    background: url(../images/if_block_top_hover.png) no-repeat;
+  }
+}
+
+.if-block-bottom {
+  background: url(../images/if_block_bottom.png) no-repeat;
+
+  &:hover {
+    background: url(../images/if_block_bottom_hover.png) no-repeat;
+  }
+}

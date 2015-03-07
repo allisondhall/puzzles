@@ -1,0 +1,32 @@
+$orange: #FF9900;
+$darkgray: #424242;
+$mediumgray: #BCBCBC;
+$lightgray: #E9E9E9;
+$blue: #3299BB;
+
+.play {
+  width: 100%;
+  height: 430px;
+  display: block;
+  position: relative;
+}
+
+.play-sandbox {
+  float: left;
+  width: 55%;
+  height: 400px;
+  margin: 15px 30px 15px 15px;
+  padding: 10px;
+  background-image: url('../images/desk.jpg');
+  opacity: 0.8;
+  box-shadow: 4px 4px 8px $darkgray;
+}
+
+.play-sidebar {
+  float: left;
+  width: 20%;
+  height: 400px;
+  margin: 15px 0px 15px 15px;
+  padding: 10px;
+  border: $mediumgray solid 2px;
+}
